@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+      "experimentalDecorators": true,
+      "target": "es5",
+      "lib": ["es6", "dom"],
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "jsx": "react",
+      "emitDecoratorMetadata": true,
+      "noImplicitAny": true,
+      "removeComments": true,
+      "preserveConstEnums": true,
+      "suppressImplicitAnyIndexErrors": false,
+      "noResolve": false,
+      "noUnusedParameters": false,
+      "strictNullChecks": true,
+      // "esModuleInterop": true
+  },
+  "include": [
+      "src/**/*"
+  ],
+  "exclude": [
+    "node_modules/**/*"
+  ]
+}
