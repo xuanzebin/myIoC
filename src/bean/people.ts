@@ -1,4 +1,4 @@
-import { Inject } from '../toyLoC'
+import { Inject } from '../toyIoC'
 
 import { HatInterface } from '../types/hat'
 import { ClothInterface } from '../types/cloth'

@@ -1,4 +1,4 @@
-const INJECT_METADATA_KEY = 'TOYLOC:INJECT'
+const INJECT_METADATA_KEY = 'TOYIOC:INJECT'
 
 export default (beanName: string) => {
   return (target: any, propertyKey: string) => {

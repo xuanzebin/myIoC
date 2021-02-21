@@ -4,7 +4,7 @@ import dependencyMap from '../config'
 import { BeanMap } from '../types/container'
 
 
-const INJECT_METADATA_KEY = 'TOYLOC:INJECT'
+const INJECT_METADATA_KEY = 'TOYIOC:INJECT'
 
 export default class Container {
   beanMap: BeanMap = {}

@@ -1,6 +1,6 @@
 import 'reflect-metadata'
 
-import { Container } from './toyLoC'
+import { Container } from './toyIoC'
 import { PeopleInterface } from './types/people'
 
 const container = new Container()
